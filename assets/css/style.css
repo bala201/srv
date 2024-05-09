@@ -458,6 +458,13 @@ a:hover {
   font-family: Algerian;
 }
 
+@media only screen and (max-width: 600px) {
+  #header .logo {
+    font-size: 20px; /* Decrease font size for better readability on smaller screens */
+    letter-spacing: 0; /* Adjust letter spacing as needed */
+  }
+}
+
 #header .logo img {
   max-height: 40px;
 }
